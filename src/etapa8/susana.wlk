@@ -8,6 +8,7 @@ object susana {
 	
 	method tuPupiloEs(ave) { pupilo = ave }
 	method pupiloActual() { return pupilo }
+	method estaContento() {}
 
 	method entrenar() {
 		pupilo.comer(alpiste, 100)

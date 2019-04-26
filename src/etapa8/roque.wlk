@@ -31,4 +31,7 @@ object roque {
 		//}
 		//return resultado
 	}
+	method estaContento() {
+		return (pupilos.size() > 1 and pupilos.size() < 8)
+	}
 }
